@@ -19,6 +19,10 @@ BotMan supports single messages as well as conversations. See BotMan project pag
 ```
 composer require botman/botman
 ```
+* Add autoload to your bot file
+```
+require __DIR__ . '/vendor/autoload.php';
+```
 * install facebook messenger driver and follow BotMan docs on how to include it in your bot
 ```
 composer require botman/driver-facebook
