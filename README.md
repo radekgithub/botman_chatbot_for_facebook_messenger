@@ -10,7 +10,7 @@ BotMan supports single messages as well as conversations. See BotMan project pag
 * Create facebook developers account, then create page and app for that page
 * In app settings generate facebook page token and paste it in FACEBOOK_PAGE_TOKEN field in index.php
 * Choose FACEBOOK_WEBHOOK_VERIFICATION (just make it up, e.g. my-verify-token) and write it in appropriate field in index.php
-* Setup facebook webhook by providing chatbot url. Facebook only accepts https url, so use ngrok for localhost development or public hosting with SSL provided. Ngrok example url `https://32456e6.ngrok.io/chatbot`, public hosting example url `https://my-domain.com/chatbot`
+* Setup facebook webhook by providing chatbot url. Facebook only accepts https url, so use ngrok for localhost development or public hosting with SSL provided. Ngrok example url `https://324596e6.ngrok.io/chatbot`, public hosting example url `https://my-domain.com/chatbot`
 * Choose webhook events; to send and receive messages the following events are enough: messages, messaging_postbacks
 * From dropdown select the earlier created page and suscribe your webhook to it
 
