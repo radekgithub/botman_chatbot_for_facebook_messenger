@@ -7,7 +7,8 @@ Based on BotMan 2.0 without Studio, i.e. as a standalone library (BotMan Studio 
 BotMan supports single messages as well as conversations. See BotMan project page for more details.
 
 **Installation**
-* Create facebook developers account, then create page and app for that page
+* Place this repository files on localhost or public hosting
+* Whether using this repository or composer, you have to create facebook developers account, then create page and app for that page
 * In app settings generate facebook page token and paste it in FACEBOOK_PAGE_TOKEN field in index.php
 * Choose FACEBOOK_WEBHOOK_VERIFICATION (just make it up, e.g. my-verify-token) and write it in appropriate field in index.php
 * Setup facebook webhook by providing chatbot url. Facebook only accepts https url, so use ngrok for localhost development or public hosting with SSL provided. Ngrok example url `https://324596e6.ngrok.io/chatbot`, public hosting example url `https://my-domain.com/chatbot`
