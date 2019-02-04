@@ -1,0 +1,8 @@
+{
+    "require": {
+        "botman/botman": "^2.4",
+        "botman/driver-facebook": "^1.9",
+        "doctrine/cache": "^1.8",
+        "symfony/cache": "^4.2"
+    }
+}
