@@ -6,7 +6,7 @@ Based on BotMan 2.0 without Studio, i.e. as a standalone library (BotMan Studio 
 
 BotMan supports single messages as well as conversations. See BotMan project page for more details.
 
-**Installation**
+**Installation from this repository**
 * Place this repository files on localhost or public hosting
 * Whether using this repository or composer, you have to create facebook developers account, then create page and app for that page
 * In app settings generate facebook page token and paste it in FACEBOOK_PAGE_TOKEN field in index.php
